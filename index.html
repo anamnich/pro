@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="https://zass.store/assets/logo.png"
+			type="image" />
+		<!-- UNICONS -->
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style.css" />
+		<!-- Add favicon -->
+		<link
+			rel="shortcut icon"
+			href="assets/images/favicon.png"
+			type="image/x-icon" />
+
+		<title>Zass | Portofolio</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- --------------- HEADER --------------- -->
+			<nav id="header">
+				<div class="nav-logo">
+					<p class="nav-name">Zass<span class="nm-p">Store</span></p>
+				</div>
+				<div class="nav-menu" id="myNavMenu">
+					<ul class="nav_menu_list">
+						<li class="nav_list">
+							<a href="#home" class="nav-link active-link">Home</a>
+						</li>
+						<li class="nav_list">
+							<a href="#about" class="nav-link">About</a>
+						</li>
+						<li class="nav_list">
+							<a href="#projects" class="nav-link">Projects</a>
+						</li>
+						<li class="nav_list">
+							<a href="#contact" class="nav-link">Contact</a>
+						</li>
+						<li class="nav_list">
+							<label class="switch">
+								<input type="checkbox" id="mode-toggle" />
+								<span class="slider round"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-menu-btn">
+					<i class="uil uil-bars" onclick="myMenuFunction()"></i>
+				</div>
+			</nav>
+
+			<!-- -------------- MAIN ---------------- -->
+			<main class="wrapper">
+				<!-- -------------- FEATURED BOX ---------------- -->
+				<section class="featured-box" id="home">
+					<div class="featured-text">
+						<div class="featured-text-card">
+							<span>Zass Store</span>
+						</div>
+						<div class="featured-name">
+							<p>I'am <span class="typedText"></span></p>
+						</div>
+						<div class="featured-text-info">
+							<p>
+								Hai?👋. Selamat datang di situs web saya. Saya Seorang frontend
+								developer dengan pengalaman yang cukup hasrat untuk membuat situs
+								web/program lain nya yang menakjubkan secara visual dan ramah pengguna.
+							</p>
+						</div>
+						<!--  <div class="featured-text-btn">
+                     <button class="btn blue-btn">My Store</button>
+                  </div> -->
+						<div class="social_icons">
+							<div class="icon">
+								<a href="https://instagram.com/aanam.co.id"
+									><i class="uil uil-instagram"></i
+								></a>
+							</div>
+							<div class="icon">
+								<a href="https://wa.me/6282218876020"
+									><i class="uil uil-whatsapp"></i
+								></a>
+							</div>
+							<div class="icon">
+								<a
+									href="https://twitter.com/accanam13"
+									><i class="uil uil-twitter-alt"></i
+								></a>
+							</div>
+							<div class="icon">
+								<a href="https://github.com/ZassTdr"
+									><i class="uil uil-github-alt"></i
+								></a>
+							</div>
+							<div class="icon">
+								<a href="https://t.me/ZassTod"><i class="uil uil-telegram-alt"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="featured-image">
+						<div class="image">
+							<img src="./gambar/zass.png" alt="avatar" />
+						</div>
+					</div>
+				</section>
+				<!-- -------------- ABOUT BOX ---------------- -->
+				<section class="section" id="about">
+					<div class="top-header">
+						<h1>About Me</h1>
+					</div>
+					<div class="row">
+						<div class="col">
+							<div class="about-info">
+								<div class="content-p">
+									<h3>Perkenalan</h3>
+									<p>
+										Assalamualaikum, Halo semuanya, Perkenalkan nama saya zass,
+										saya berasal dari lombok (indonesia), saya masih duduk di bangku sma,
+										saya berpengalaman sebagai programer sejak 4 tahun yang lalu. dan saya
+										sudah menggunakan beberapa bahasa permrograman antara lain:
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="skills-box">
+								<div class="skills-header">
+									<h3>Frontend</h3>
+								</div>
+								<div class="skills-list">
+									<span class="s-html">HTML</span>
+									<span class="s-css">CSS</span>
+									<span class="s-boot">Bootstrap</span>
+									<span class="s-js">JavaScript</span>
+								</div>
+							</div>
+							<div class="skills-box">
+								<div class="skills-header">
+									<h3>Backend</h3>
+								</div>
+								<div class="skills-list">
+									<span class="s-php">PHP</span>
+									<span class="s-js">JavaScript</span>
+									<span class="s-njs">NodeJs</span>
+									<span class="s-ex">ExpressJs</span>
+									<span class="s-ts">TypeScript</span>
+								</div>
+							</div>
+							<div class="skills-box">
+								<div class="skills-header">
+									<h3>Database</h3>
+								</div>
+								<div class="skills-list">
+									<span class="s-sql">MySQL</span>
+									<span class="s-mdb">MongoDB</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- -------------- PROJECT BOX ---------------- -->
+
+				<section class="section" id="projects">
+					<div class="top-header">
+						<h1>Projects</h1>
+					</div>
+					<div class="project-container">
+						<div class="project-box">
+							<img src="./gambar/project4.png" alt="" />
+							<label>Panel Botz</label>
+							<desc>Website untuk menjalankan botz Whatsapp</desc>
+							<a class="preview" href="">http://cs.zass.site</a>
+						</div>
+						<div class="project-box">
+							<img src="https://telegra.ph/file/cc2e5a4bbd90391729108.jpg" alt="" />
+							<label>Smm Panel</label>
+							<desc>smm panel untuk menambahkan followers atau like dan lainya mempermudah kamu menjadi seleb dengan singkat</desc>
+							<a class="preview" href="">tidak tersedia</a>
+						</div>
+						<div class="project-box">
+							<img src="https://telegra.ph/file/718c9761ebd19faa6f658.jpg" alt="" />
+							<label>Digital Ocean</label>
+							<desc>Jasa Pembuatan Provider Digital Ocean</desc>
+							<a class="preview" href="">https://cloud.digitalocean.com/login</a>
+						</div>
+						<div class="project-box">
+							<img src="https://telegra.ph/file/2e306172a5dc15c91d5ef.jpg" alt="" />
+							<label>Linode </label>
+							<desc>Jasa Pembuatan Linode Provider</desc>
+							<a class="preview" href="https://login.linode.com/login">https://malzstore.com</a>
+						</div>
+						<div class="project-box">
+							<img src="https://telegra.ph/file/b8d1510fbb7299f1708e7.jpg" alt="" />
+							<label>Hack Mobile legends</label>
+							<desc>Untuk Harga Kalian Bisa Chat Admin</desc>
+							<a href="https://wa.me/6282218876020" class="preview"
+								>Chat Admin</a
+							>
+						</div>
+						<div class="project-box">
+							<img src="https://telegra.ph/file/7bbaefc42f98c44ec21ce.jpg" alt="" />
+							<label>Hack Pubg Mobile</label>
+							<desc>Untuk Harga Kalian Bisa Chat Admin</desc>
+							<a href="https://wa.me/6282218876020" class="preview"
+								>Chat Admin</a
+							>
+						</div>
+						<div class="project-box">
+							<img src="https://telegra.ph/file/c1394bbbc8060e1be25f9.jpg" alt="" />
+							<label>Script Bot Whatsapp</label>
+							<desc>Ready Script Bot Whatsapp Pribadi</desc>
+							<a class="preview" href="https://wa.me/6282218876020">Chat Admin</a>
+						</div>
+						<div class="project-box">
+							<img
+								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7HukwPWQj-77DkrO2iiy8KdTTc9xTzruXeg&usqp=CAU"
+								alt="" />
+							<label>Whatsapp Bot</label>
+							<desc>sebuah balasan otomatis Whatsapp</desc>
+							<a href="https://wa.me/6282218876020">coba sekarang</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- -------------- CONTACT BOX ---------------- -->
+
+				<section class="section" id="contact">
+					<div class="top-header">
+						<h1>Ada Sesuatu?</h1>
+						<span
+							>Anda membutuhkan bantuan atau lainnya?. Silahkan hubungi saya, Saya akan
+							berusaha respon anda</span
+						>
+					</div>
+					<div class="row">
+						<div class="col">
+							<div class="contact-info">
+								<h2>My Contact <i class="uil uil-corner-right-down"></i></h2>
+								<p><i class="uil uil-envelope"></i> Email: zassxdofficial@gmail.com</p>
+								<p><i class="uil uil-phone"></i> +62 82218876020</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<!-- --------------- FOOTER --------------- -->
+			<footer>
+				<div class="top-footer">
+					<p>Zass Store</p>
+				</div>
+				<div class="middle-footer">
+					<ul class="footer-menu">
+						<li class="footer_menu_list">
+							<a href="#home">Home</a>
+						</li>
+						<li class="footer_menu_list">
+							<a href="#about">About</a>
+						</li>
+						<li class="footer_menu_list">
+							<a href="#projects">Projects</a>
+						</li>
+						<li class="footer_menu_list">
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-social-icons">
+					<div class="icon">
+						<a href="https://instagram.com/aanam.co.id"
+							><i class="uil uil-instagram"></i
+						></a>
+					</div>
+					<div class="icon">
+						<a href="https://wa.me/6282218876020"><i class="uil uil-whatsapp"></i></a>
+					</div>
+					<div class="icon">
+						<a href="https://twitter.com/accanam13"
+							><i class="uil uil-twitter-alt"></i
+						></a>
+					</div>
+					<div class="icon">
+						<a href="https://github.com/ZassTdr"
+							><i class="uil uil-github-alt"></i
+						></a>
+					</div>
+					<div class="icon">
+						<a href="https://t.me/ZassTod"><i class="uil uil-telegram-alt"></i></a>
+					</div>
+				</div>
+				<div class="footer-social-icons">
+					<div class="icon">
+						<a href="https://youtube.com/@yaemikochn"
+							><i class="uil uil-youtube"></i
+						></a>
+					</div>
+					<div class="icon">
+						<a href=""><i class="uil uil-discord"></i></a>
+					</div>
+					<div class="icon">
+						<a href=""
+							><i class="uil uil-facebook"></i
+						></a>
+					</div>
+				</div>
+				<div class="bottom-footer">
+					<p>
+						Copyright &copy;
+						<a href="#home" style="text-decoration: none; color: green">Zass</a>
+						- All rights reserved
+					</p>
+				</div>
+			</footer>
+		</div>
+
+		<!-- ----- TYPING JS Link ----- -->
+		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+		<!-- ----- SCROLL REVEAL JS Link----- -->
+		<script src="https://unpkg.com/scrollreveal"></script>
+
+		<!-- ----- MAIN JS ----- -->
+		<script src="./script.js"></script>
+	</body>
+</html>
